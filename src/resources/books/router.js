@@ -1,5 +1,6 @@
 const express = require("express");
+const control = require("./controller")
 
-const router = express.Router();
+const booksRouter = express.Router();
 
-module.exports = router;
+module.exports = booksRouter;
